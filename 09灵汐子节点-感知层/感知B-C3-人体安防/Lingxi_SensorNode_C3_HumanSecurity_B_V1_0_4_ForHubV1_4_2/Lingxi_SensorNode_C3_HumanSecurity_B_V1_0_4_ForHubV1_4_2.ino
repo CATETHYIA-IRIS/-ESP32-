@@ -347,13 +347,13 @@ void sendConfigPage() {
   html.reserve(7600);
   html += "<!doctype html><html><head><meta charset='utf-8'>";
   html += "<meta name='viewport' content='width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no'>";
-  html += "<title>灵汐感知层子节点B - 光照安防配网</title>";
+  html += "<title>灵汐感知层子节点B - 配网</title>";
   html += "<style>";
   html += "*{box-sizing:border-box}body{margin:0;min-height:100vh;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei',sans-serif;color:#102a43;background:linear-gradient(155deg,#eef8ff,#f7fbff 48%,#dceeff);padding:18px}.shell{max-width:640px;margin:0 auto}.card{position:relative;overflow:hidden;background:rgba(255,255,255,.95);border:1px solid rgba(72,160,220,.18);box-shadow:0 20px 60px rgba(45,121,196,.18);border-radius:28px;padding:24px}.tag{display:inline-flex;padding:6px 12px;border-radius:999px;background:#e8f5ff;color:#1676c8;font-size:12px;font-weight:900}h1{margin:14px 0 6px;font-size:25px;line-height:1.25;color:#102a43}h2{margin:0 0 10px;font-size:18px;color:#2b7fc3}.sub{margin:0;color:#60758d;line-height:1.8;font-size:14px}.panel{margin-top:18px;background:#f7fbff;border:1px solid #d7ecff;border-radius:20px;padding:15px}.kv{display:grid;grid-template-columns:92px 1fr;gap:8px 10px;font-size:13px;line-height:1.65}.kv b{color:#2b7fc3}.field{margin-top:14px}label{display:block;margin-bottom:8px;font-weight:900}input{width:100%;border:1px solid #c9e5fa;background:white;border-radius:15px;padding:13px 14px;font-size:16px;outline:none}input:focus{border-color:#4eb7ff;box-shadow:0 0 0 4px rgba(78,183,255,.14)}.hint{font-size:12px;color:#6e8298;margin-top:6px;line-height:1.6}button{width:100%;border:0;border-radius:16px;padding:14px 16px;margin-top:18px;font-size:16px;font-weight:900;color:white;background:linear-gradient(135deg,#4eb7ff,#1b77d2)}.tip{margin-top:16px;border-radius:18px;padding:13px 14px;background:#eef8ff;border:1px dashed #b8def8;color:#4d6a86;font-size:12px;line-height:1.75}.foot{font-size:12px;color:#71879e;text-align:center;margin-top:14px;line-height:1.7}";
   html += "</style></head><body><div class='shell'><div class='card'>";
   html += "<div class='tag'>" + htmlEscape(String(LINGXI_NODE_ID)) + " · " + htmlEscape(String(LINGXI_PUBLIC_VERSION)) + "</div>";
-  html += "<h1>灵汐感知层子节点B</h1><h2>光照安防配网</h2>";
-  html += "<p class='sub'>负责 BH1750 光照、MQ2 烟雾、大门门磁与卧室人体活动触发。保存配置后节点会自动重启并连接中控。</p>";
+  html += "<h1>灵汐感知层子节点B</h1><h2>人体安防配网</h2>";
+  html += "<p class='sub'>负责MQ2/MQ5/人体传感。保存配置后节点会自动重启并连接中控。</p>";
   html += "<div class='panel'><div class='kv'>";
   html += "<b>节点名称</b><span>" + htmlEscape(String(LINGXI_NODE_NAME)) + "</span>";
   html += "<b>节点类型</b><span>感知节点 / sensor_board</span>";
