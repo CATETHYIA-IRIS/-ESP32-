@@ -60,25 +60,25 @@
 
  📂 项目结构
 Lingxi_PublicBeta_V1_4_2/
-├── 00_foundation_config_models.ino      # 基础配置、数据模型、节点模板
-├── 01_webui_assets_part1.ino            # WebUI 首页 gzip 资源 (前半)
-├── 02_webui_assets_part2.ino            # WebUI 首页 gzip 资源 (后半)
-├── 03_json_html_utils_storage_base.ino  # JSON/HTML 工具、存储基类
-├── 03a_auth_core.ino                    # 登录认证、管理员管理
-├── 04_role_voice_audio_core.ino         # 角色资源、语音包播放
-├── 05_asr_tts_chat_core.ino             # ASR/TTS、对话任务状态
-├── 06_node_device_core.ino              # 节点注册、端点模板
-├── 07_pages_settings_part1.ino          # 系统设置页（前半）
-├── 08_pages_settings_part2.ino          # 系统设置页（后半）+ 豆包配置
-├── 09_cloud_weather_mqtt_core.ino       # 天气、MQTT 巴法云
-├── 10_rules_logs_control_core.ino       # 规则引擎、日志、统一控制
-├── 11_voice_api_handlers_core.ino       # 语音相关 Web API
-├── 12_device_api_handlers_core.ino      # 设备状态与控制 API
-├── 13_web_routes_core.ino               # Web 路由注册表
-├── 14_setup_loop_tasks.ino              # 启动、循环、任务调度
-├── Lingxi_PublicBeta_V1_4_2.ino         # 主入口说明（无代码）
-├── STATIC_CHECK_REPORT.c                # 静态检查报告
-└── README.md                            # 本文件
+>├── 00_foundation_config_models.ino      # 基础配置、数据模型、节点模板
+>├── 01_webui_assets_part1.ino            # WebUI 首页 gzip 资源 (前半)
+>├── 02_webui_assets_part2.ino            # WebUI 首页 gzip 资源 (后半)
+>├── 03_json_html_utils_storage_base.ino  # JSON/HTML 工具、存储基类
+>├── 03a_auth_core.ino                    # 登录认证、管理员管理
+>├── 04_role_voice_audio_core.ino         # 角色资源、语音包播放
+>├── 05_asr_tts_chat_core.ino             # ASR/TTS、对话任务状态
+>├── 06_node_device_core.ino              # 节点注册、端点模板
+>├── 07_pages_settings_part1.ino          # 系统设置页（前半）
+>├── 08_pages_settings_part2.ino          # 系统设置页（后半）+ 豆包配置
+>├── 09_cloud_weather_mqtt_core.ino       # 天气、MQTT 巴法云
+>├── 10_rules_logs_control_core.ino       # 规则引擎、日志、统一控制
+>├── 11_voice_api_handlers_core.ino       # 语音相关 Web API
+>├── 12_device_api_handlers_core.ino      # 设备状态与控制 API
+>├── 13_web_routes_core.ino               # Web 路由注册表
+>├── 14_setup_loop_tasks.ino              # 启动、循环、任务调度
+>├── Lingxi_PublicBeta_V1_4_2.ino         # 主入口说明（无代码）
+>├── STATIC_CHECK_REPORT.c                # 静态检查报告
+>└── README.md                            # 本文件
 > 注意：Arduino IDE 会把所有 `.ino` 文件合并编译，无需手动包含。
 🔧 烧录与配置
 
