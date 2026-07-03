@@ -1,0 +1,1 @@
+已修复 app/build.gradle 中 buildTypes 的 Groovy 写法。原版本把 release 和 debug 写在同一行，部分 Gradle/AGP 会把 debug 解析成 release 内的方法调用，导致 Could not find method debug() 报错。
